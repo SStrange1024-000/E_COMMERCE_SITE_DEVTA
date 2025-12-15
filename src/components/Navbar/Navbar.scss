@@ -1,0 +1,106 @@
+.Navbar{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+    padding: 8px 16px;
+
+    .links{
+        display: flex;
+        align-items: baseline;
+        gap: 40px;
+
+        .logo{
+            font-size: 50px;
+            font-weight: 300;
+            cursor: pointer;
+        }
+
+        .link{
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+
+    .linkContainer{
+        display: flex;
+        gap: 20px;
+    }
+
+    .navIcons{
+        display: flex;
+        font-size: 25px;
+        font-weight: bold;
+        gap: 20px;
+
+        .cross{
+            display: none;
+            cursor: pointer;
+        }
+        .bar{
+            display: none;
+            cursor: pointer;
+        }
+    }
+
+  
+
+}
+
+  
+    /* ========== MOBILE SCREEN ========== */
+    @media only screen and (max-width: 768px) {
+        .Navbar{
+            padding: 15px;
+            gap: 12px;
+
+        
+        .links {
+            gap: 16px;
+            align-items: center;
+
+            .logo {
+                font-size: 40px; /* smaller logo for mobile */
+            }
+        }
+
+        .linkContainer {
+            display: none;
+        }
+
+        .active{
+            width: 50%;
+            border-radius: 2px;
+            background-color: var(--BackgroundColor2);
+            position: absolute;
+            top: 60px;
+            right: 0px;
+            transition: .3s;
+            padding: 10px 20px;
+            font-size: 20px;
+
+            .link{
+                margin-top: 10px;
+                font-size: 15px;
+            }
+        }
+
+        .navIcons {
+            font-size: 20px;
+            gap: 12px;
+
+        .btnDiv{
+            cursor: pointer;
+        }
+
+        .cross{
+            display: block;
+        }
+        .bar{
+            display: block;
+        }
+
+        }
+    }
+    
+}

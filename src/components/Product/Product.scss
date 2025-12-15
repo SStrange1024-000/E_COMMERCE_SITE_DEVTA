@@ -1,0 +1,50 @@
+.Product{
+    width: clamp(270px, 46vw, 370px);
+    height: clamp(450px, 56vw, 520px);
+    background-color: var(--BackgroundColor);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .PTop{
+        width: 100%;
+        display: flex;
+        justify-content: end;
+
+        .wishList{
+            color: rgb(54, 53, 53);
+        }
+    }
+
+    .productImage{
+        width: 100%;
+        // padding: ;
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .PBottom{
+        width: 100%;
+
+        h2{
+            font-size:20px;
+            font-weight: 400;
+        }
+
+        p{
+            margin:5px 0px;
+            font-size: 13px;
+        }
+    }
+
+}
+
+@media (max-width: 768px) {}
+@media (max-width: 480px) { /* small phones */ }

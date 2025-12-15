@@ -1,0 +1,47 @@
+.Footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--footerBgColor);
+    color: #fff;
+    margin-top: 40px;
+
+    .FTop{
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+        padding: 40px 20px;
+        border-bottom: 1px solid #fff;
+
+        .services{
+            padding: 10px;
+
+            h2{
+                font-size: 30px;
+                text-transform: uppercase;
+                margin: 10px 0px;
+            }
+
+            p{
+                margin-bottom: 5px;
+            }
+        }
+
+        .SocialLinks{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: end;
+        }
+    }
+
+    .FBottom{
+        padding: 20px 40px;
+
+        h1{
+            font-size: 14px;
+            font-weight: 100px;
+        }
+    }
+}
