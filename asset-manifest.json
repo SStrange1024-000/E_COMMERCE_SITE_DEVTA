@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/E_COMMERCE_SITE_DEVTA/static/css/main.37ae6508.css",
+    "main.js": "/E_COMMERCE_SITE_DEVTA/static/js/main.f4b8cc9b.js",
+    "static/media/Classical Dress.png": "/E_COMMERCE_SITE_DEVTA/static/media/Classical Dress.6a359c761af24f190779.png",
+    "index.html": "/E_COMMERCE_SITE_DEVTA/index.html",
+    "main.37ae6508.css.map": "/E_COMMERCE_SITE_DEVTA/static/css/main.37ae6508.css.map",
+    "main.f4b8cc9b.js.map": "/E_COMMERCE_SITE_DEVTA/static/js/main.f4b8cc9b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37ae6508.css",
+    "static/js/main.f4b8cc9b.js"
+  ]
+}
