@@ -1,8 +1,8 @@
 import React from 'react';
 import './Wish.scss';
 import { RxCross1 } from "react-icons/rx";
-import ProductImage from '../../asset/Classical Dress.png';
 import { CiShare1 } from "react-icons/ci";
+import ProductImage from '../Product/ProductImage';
 
 function Wish() {
   return (
@@ -11,9 +11,7 @@ function Wish() {
             <div className="wishListContainer">
 
                 <div className="leftPart">
-                    <div className="productImage">
-                        <img src={ProductImage} alt="" />
-                    </div>            
+                    <ProductImage/>           
                 </div>
 
                 <div className="rightPart">
