@@ -6,6 +6,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    cursor: pointer;
 
     .PTop{
         width: 100%;
@@ -17,21 +18,12 @@
         }
     }
 
-    .productImage{
-        width: 100%;
-        // padding: ;
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
-
-        img{
-            width: 100%;
-            object-fit: cover;
-        }
-    }
 
     .PBottom{
         width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
 
         h2{
             font-size:20px;
@@ -42,6 +34,10 @@
             margin:5px 0px;
             font-size: 13px;
         }
+    }
+
+    &:active{
+        border: 1px solid black;
     }
 
 }

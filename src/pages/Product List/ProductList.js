@@ -1,10 +1,12 @@
 import React from 'react';
 import './ProductList.scss'
 import Product from '../../components/Product/Product'
+import HBanner from '../../components/Media Banner/HBanner';
 
 function ProductList() {
   return (
     <div className="ProductList">
+        <HBanner head='Product Lists' desc='This is the product list'/>
         <div className="PLTop">
             <div className="filter">
                 <p>Filter</p>

@@ -33,6 +33,11 @@
             flex-direction: column;
             justify-content: space-between;
             align-items: end;
+
+            .socialMedia{
+                display: flex;
+                gap: 10px;
+            }
         }
     }
 
@@ -42,6 +47,46 @@
         h1{
             font-size: 14px;
             font-weight: 100px;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .Footer{
+        .FTop{
+            display: block;
+
+            .services{
+                border-bottom: 1px solid silver;
+
+                h2{
+                    transition: .2s;
+                    font-size: 16px;
+                    cursor: pointer;
+                }
+            }
+            .ppp{
+                display: none;
+            }
+
+            .pdis{
+                display: block;
+            }
+
+            
+        .SocialLinks{
+            padding: 10px 0xp;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+            gap: 20px;
+
+            .socialMedia{
+                display: flex;
+                gap: 10px;
+            }
+        }
         }
     }
 }

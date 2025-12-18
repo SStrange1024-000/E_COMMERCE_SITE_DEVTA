@@ -1,12 +1,12 @@
 import React from 'react';
 import './HBanner.scss';
 
-function HBanner() {
+function HBanner({head,desc}) {
   return (
     <div className="HBanner">
-        <div className="container">
-            <h1 className="Hheading">Clothes</h1>
-            <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, eligendi?</p>
+        <div className="container1">
+            <h1 className="Hheading">{head}</h1>
+            <p className="description">{desc}</p>
         </div>
     </div>
   )

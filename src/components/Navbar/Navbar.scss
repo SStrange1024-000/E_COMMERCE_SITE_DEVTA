@@ -4,6 +4,7 @@
     justify-content: space-between;
     align-items: last baseline;
     padding: 8px 16px;
+    background-color: #fff;
 
     .links{
         display: flex;
@@ -11,6 +12,7 @@
         gap: 40px;
 
         .logo{
+            all: unset;
             font-size: 50px;
             font-weight: 300;
             cursor: pointer;
@@ -19,6 +21,11 @@
         .link{
             font-size: 20px;
             cursor: pointer;
+        }
+
+        .link:hover{
+            color: grey;
+            text-decoration: underline;
         }
     }
 
@@ -33,6 +40,11 @@
         font-weight: bold;
         gap: 20px;
 
+        .wishIcon{
+            cursor: pointer;
+        }
+    
+
         .cross{
             display: none;
             cursor: pointer;
@@ -46,23 +58,13 @@
   
 
 }
-
   
     /* ========== MOBILE SCREEN ========== */
-    @media only screen and (max-width: 768px) {
+    @media screen and (max-width: 768px) {
         .Navbar{
             padding: 15px;
             gap: 12px;
 
-        
-        .links {
-            gap: 16px;
-            align-items: center;
-
-            .logo {
-                font-size: 40px; /* smaller logo for mobile */
-            }
-        }
 
         .linkContainer {
             display: none;

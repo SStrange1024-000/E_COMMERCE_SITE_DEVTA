@@ -25,9 +25,9 @@ code {
     monospace;
 }
 
+
 .hoverLink{
   all: unset;
-  width: 100px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 4px;
   padding: 8px 20px;
@@ -35,6 +35,63 @@ code {
   margin-top: 20px;
   font-size: 20px;
   font-weight: 500;
-  color: #1a1919d9;
+  color: #1a1919ef;
   cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.hoverLink2{
+  all: unset;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 4px;
+  padding: 8px 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #1a1919ef;
+  color: #fff;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.hoverLink2:hover{
+  color: #1a1919ef;
+  background-color: #fff;
+}
+
+.hoverLink:hover{
+  background-color: #1a1919ef;
+  color: #f3eded;
+}
+
+.hoverLink:active{
+  background-color: black;
+}
+
+.hoverLink2:active{
+  background-color: rgb(255, 255, 255);
+}
+
+.RouteLink{
+  all: unset;
+  cursor: pointer;
+}
+
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputStyle{
+  padding: 8px 16px;
+  font-size: 1.2rem;
 }

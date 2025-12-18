@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import './Navbar.scss';
 import { FaRegHeart } from "react-icons/fa";
+import { FaShoppingBag } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa6";
 import { MdOutlineSearch } from "react-icons/md";
 import { CiUser } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
 import { HiBars3BottomRight } from "react-icons/hi2";
-import { useNavigate,Navigate } from 'react-router-dom';
+import { useNavigate,Navigate, Link, Links } from 'react-router-dom';
 
 function Navbar() {
   const [clicked,setClicked]=useState(false);
@@ -20,7 +21,7 @@ function Navbar() {
   return (
     <div className="Navbar">
       <div className="links">
-        <h1 className="logo">Devta</h1>
+        <Link to='/' className='RouteLink'><h1 className="logo">Devta</h1></Link>
         <div className={!clicked ?"linkContainer":"active"}>
           <p className="link">Gifts</p>
           <p className="link" onClick={()=>navigate('/productlist')}>New</p>
@@ -30,9 +31,10 @@ function Navbar() {
         </div>
       </div>
       <div className="navIcons">
-        <MdOutlineSearch/>
-        <FaRegHeart onClick={()=>navigate('/wishlist')}/>
-        <CiUser/>
+        <MdOutlineSearch className='wishIcon'/>
+        <FaRegHeart onClick={()=>navigate('/wishlist')} className='wishIcon'/>
+        <CiUser className='wishIcon' onClick={()=>navigate('/login')}/>
+        <Link to='cart' className='RouteLink'> <FaShoppingBag/> </Link>
         <div className="btnDiv" onClick={()=>{handleClickMenu()}}>
           {clicked ? <RxCross1 className='cross'/> : <HiBars3BottomRight className='bar'/>}
         </div>

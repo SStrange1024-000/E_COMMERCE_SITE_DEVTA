@@ -1,0 +1,15 @@
+.Home{
+    margin: 0;
+
+    .collection{
+
+        .info{
+            flex-direction: column;
+            padding: 20px 10px;
+        }
+    }
+
+    .content{
+        display: flex;
+    }
+}

@@ -1,11 +1,8 @@
 .HBanner{
     width: 100%;
     padding:40px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    .container{
+    .container1{
         display: flex;
         padding: 40px;
         flex-direction: column;
@@ -14,8 +11,14 @@
         text-align: center;
         font-family: Arial;
 
-        .HHeading{
-            font-size: 50px;
+        .Hheading{
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        .description{
+            letter-spacing: 2px;
+            margin-top: 10px;
         }
     }
 }
@@ -24,12 +27,12 @@
 
     .HBanner{
     width: 100%;
-    padding:40px;
+    padding:20px;
     display: flex;
     justify-content: center;
     align-items: center;
 
-    .container{
+    .container1{
         display: flex;
         padding: 40px;
         flex-direction: column;
@@ -37,6 +40,11 @@
         gap: 5px;
         text-align: center;
         font-family: Arial;
+
+        .Hheading{
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
     }
 }
     

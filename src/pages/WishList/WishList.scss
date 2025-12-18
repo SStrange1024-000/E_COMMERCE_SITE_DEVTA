@@ -1,10 +1,13 @@
 .WishList{
-    width: 80%;
+    width: 90%;
     margin: 20px auto;
-    padding: 20px 40px;
+    padding: 20px;
 
     .title{
+        font-family: lucida sans;
+        font-weight: 200px;
         margin: 20px 0px;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.4);
     }
     .wishListContainer{
         display: flex;

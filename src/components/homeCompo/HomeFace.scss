@@ -1,0 +1,54 @@
+.HomeFace{
+    height: 80vh;
+    background: url('../../asset//Attire.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .HFaceContainer{
+        height: 100%;
+        flex-direction: column;
+        gap: 10px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.573);
+
+        .heading{
+            font-size: 3.5rem;
+        }
+
+        .subHeading{
+            font-size: 1.8rem;
+        }
+
+        .giftBtn{
+            border-color: #fff;
+            color: #fff;
+            user-select: none;
+            margin-top: 20px;
+        }
+
+        .giftBtn:hover{
+            background-color: #fff;
+            color: black;
+            border-color: black;
+
+        }
+        // Active
+    }
+}
+
+@media (max-width:768px){
+    .HomeFace{
+        
+        .HFaceContainer{
+
+            .heading{
+                font-size: 3rem;
+            }
+
+            .subHeading{
+                font-size: 1.5rem;
+            }
+        }
+    }
+}

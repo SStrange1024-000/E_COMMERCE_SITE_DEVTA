@@ -1,0 +1,20 @@
+.Category{
+    width: 50%;
+    aspect-ratio: 8/12;
+    background-image: url('../../asset/Attire.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    .content{
+        height: 100%;
+        color: #fff;
+        transition:  0.2s ease;
+        background-color: rgba(0, 0, 0, 0.385);
+        cursor: pointer;
+
+        &:hover{
+            background-color: rgba(0, 0, 0, 0.463);
+        }
+    }
+}
