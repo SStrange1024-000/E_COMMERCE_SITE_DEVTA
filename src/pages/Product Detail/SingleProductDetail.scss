@@ -43,3 +43,19 @@
         }
     }
 }
+
+@media (max-width:760px){
+    .SingleProductDetail{
+        .SProductContainer{
+            display: block;
+
+            .left-part{
+                width: 100%;
+            }
+
+            .right-part{
+                width: 100%;
+            }
+        }
+    }
+}

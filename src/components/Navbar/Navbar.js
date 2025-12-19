@@ -17,14 +17,13 @@ function Navbar() {
     setClicked(prev => !prev);
   }
 
-
   return (
     <div className="Navbar">
       <div className="links">
         <Link to='/' className='RouteLink'><h1 className="logo">Devta</h1></Link>
         <div className={!clicked ?"linkContainer":"active"}>
           <p className="link">Gifts</p>
-          <p className="link" onClick={()=>navigate('/productlist')}>New</p>
+          <p className="link" onClick={()=>{navigate('/productlist');  setClicked(false)}}>New</p>
           <p className="link">Men</p>
           <p className="link">Women</p>
           <p className="link">Stories</p>

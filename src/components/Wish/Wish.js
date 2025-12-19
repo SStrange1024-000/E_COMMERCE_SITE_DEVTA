@@ -7,8 +7,8 @@ import ProductImage from '../Product/ProductImage';
 function Wish() {
   return (
     <div className="Wish">
-        <div className="mainWishList">            
-            <div className="wishListContainer">
+        <div className="mainWish">            
+            <div className="wishContainer">
 
                 <div className="leftPart">
                     <ProductImage/>           
