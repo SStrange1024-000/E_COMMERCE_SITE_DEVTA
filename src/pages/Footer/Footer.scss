@@ -55,8 +55,10 @@
     .Footer{
         .FTop{
             display: block;
+            padding: 20px 10px;
 
             .services{
+                padding: 5px;
                 border-bottom: 1px solid silver;
 
                 h2{
@@ -75,18 +77,29 @@
 
             
         .SocialLinks{
-            padding: 10px 0xp;
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            align-items: start;
-            gap: 20px;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+
+            h1{
+                font-size: 15px;
+            }
 
             .socialMedia{
                 display: flex;
                 gap: 10px;
             }
         }
+        }
+        .FBottom{
+        padding: 10px 20px;
+
+        h1{
+            font-size: 11px;
+            font-weight: 100;
+        }
+
         }
     }
 }

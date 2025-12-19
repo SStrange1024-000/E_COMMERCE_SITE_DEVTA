@@ -49,3 +49,17 @@
 }
     
 }
+
+@media (max-width:480px){
+    .HBanner{
+        padding: 10px;
+
+        .container1{
+            padding: 20px;
+            .Hheading{
+                font-size: 20px;
+                letter-spacing: 1px;
+            }
+        }
+    }
+}

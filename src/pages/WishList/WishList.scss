@@ -19,3 +19,18 @@
 
          
 }
+
+@media(max-width:768px){
+    .WishList{
+        padding: 10px;
+
+        .title{
+            font-size: 15px;
+        }
+
+        .wishListContainer{
+            gap: 20px;
+        }
+
+    }
+}
