@@ -6,7 +6,7 @@ import ProductImage from './ProductImage';
 import { FaShoppingBag } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
-function Product({product}) {
+function Product({src1}) {
     const navigate=useNavigate()
   return (
     <div className="Product" onClick={()=>navigate('/products/:productId')}>
@@ -16,7 +16,7 @@ function Product({product}) {
             </div>
         </div>
         <div className='productImgCont center'>
-            <ProductImage src={ProductImg}/>
+            <ProductImage src={src1}/>
         </div>
         <div className="PBottom">
             <div className="productName">
