@@ -1,11 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Category.scss'
 
-function Category() {
+function Category({title}) {
+
   return (
-    <div className="Category">
+    <div className={title === 'Men' ? 'CategoryMen' : 'Category'}>
       <div className="content center">
-        <h1>Women</h1>
+        <h1>{title}</h1>
       </div>
     </div>
   )

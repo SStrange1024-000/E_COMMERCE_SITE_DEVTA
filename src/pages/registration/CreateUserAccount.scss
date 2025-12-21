@@ -8,6 +8,7 @@
 
     .createUserContainer{
         width: 50%;
+        height: 80%;
         min-width: 350px;
         flex-direction: column;
 
@@ -21,7 +22,7 @@
         }
         
         form{
-            width: 100%;
+            width: 90%;
             display: flex;
             flex-direction: column;
             padding: 10px 40px;
@@ -42,11 +43,12 @@
     }
 
     .image{
+        height: 80vh;
         padding: 20px 0;
         overflow: hidden;
+        background: none;
         cursor: pointer;
         img{
-            height: 100%;
             width: 100%;
             object-fit: cover;
             transition: .3s ease;

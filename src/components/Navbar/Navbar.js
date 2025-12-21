@@ -7,7 +7,7 @@ import { MdOutlineSearch } from "react-icons/md";
 import { CiUser } from "react-icons/ci";
 import { RxCross1 } from "react-icons/rx";
 import { HiBars3BottomRight } from "react-icons/hi2";
-import { useNavigate,Navigate, Link, Links } from 'react-router-dom';
+import { useNavigate,Navigate, Link, Links, useParams } from 'react-router-dom';
 
 function Navbar() {
   const [clicked,setClicked]=useState(false);
@@ -22,11 +22,11 @@ function Navbar() {
       <div className="links">
         <Link to='/' className='RouteLink'><h1 className="logo">Devta</h1></Link>
         <div className={!clicked ?"linkContainer":"active"}>
-          <p className="link">Gifts</p>
-          <p className="link" onClick={()=>{navigate('/productlist');  setClicked(false)}}>New</p>
-          <p className="link">Men</p>
-          <p className="link">Women</p>
-          <p className="link">Stories</p>
+          <p className="link" onClick={()=>{navigate(`/productlist/gift`);  setClicked(false)}}>Gifts</p>
+          <p className="link" onClick={()=>{navigate(`/productlist/new`);  setClicked(false)}}>New</p>
+          <p className="link" onClick={()=>{navigate(`/productlist/men`);  setClicked(false)}}>Men</p>
+          <p className="link" onClick={()=>{navigate(`/productlist/women`);  setClicked(false)}}>Women</p>
+          <p className="link" onClick={()=>{navigate(`/productlist/stories`);  setClicked(false)}}>Stories</p>
         </div>
       </div>
       <div className="navIcons">

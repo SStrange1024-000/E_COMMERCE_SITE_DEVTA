@@ -1,11 +1,12 @@
 import React from 'react';
-import './Product.scss'
+import './Product.scss';
+import ProductImg from '../../asset/Attire.avif';
 import { FaRegHeart } from "react-icons/fa";
 import ProductImage from './ProductImage';
 import { FaShoppingBag } from "react-icons/fa";
 import { useNavigate } from 'react-router-dom';
 
-function Product() {
+function Product({product}) {
     const navigate=useNavigate()
   return (
     <div className="Product" onClick={()=>navigate('/products/:productId')}>
@@ -14,8 +15,8 @@ function Product() {
                 <FaRegHeart/>
             </div>
         </div>
-        <div >
-            <ProductImage/>
+        <div className='productImgCont center'>
+            <ProductImage src={ProductImg}/>
         </div>
         <div className="PBottom">
             <div className="productName">

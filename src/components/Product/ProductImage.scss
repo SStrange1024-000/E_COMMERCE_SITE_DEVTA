@@ -1,15 +1,15 @@
 .ProductImage{
-    padding: 20px 10px;
+    height: 100%;
+    padding: 5px;
     background-color: var(--BackgroundColor);
     cursor: pointer;
+    overflow: hidden;
     .pImg{
-        padding:0 ;
-        display: flex;
-        justify-content: center;
-        align-items: baseline;
+        height: 100%;
+        overflow: hidden;
 
         img{
-            width: 100%;
+            height: 100%;
             object-fit: cover;
         }
     }

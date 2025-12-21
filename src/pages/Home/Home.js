@@ -14,9 +14,13 @@ function Home() {
             <div className="info center">
                 <HBanner head='Collects' desc='Shop from the best.'/>
             </div>
-            <div className="content" onClick={()=>navigate('/productlist')}>
-                <Category/>
-                <Category/>
+            <div className="content" >
+              <div className="cont1" onClick={()=>navigate('/productlist/women')}>
+                <Category  title="Women"/>
+              </div>
+              <div className="cont2" onClick={()=>navigate('/productlist/men')}>
+                <Category  title="Men"/>
+              </div>                
             </div>
         </div>
     </div>

@@ -1,6 +1,6 @@
 .Product{
     width: clamp(270px, 46vw, 370px);
-    height: clamp(450px, 56vw, 520px);
+    height: clamp(450px, 60vw, 520px);
     background-color: var(--BackgroundColor);
     padding: 10px;
     display: flex;
@@ -10,6 +10,7 @@
 
     .PTop{
         width: 100%;
+        height: 30px;
         display: flex;
         justify-content: end;
 
@@ -18,9 +19,16 @@
         }
     }
 
+    .productImgCont{
+        flex: 1;
+        overflow: hidden;
+
+    }
+
 
     .PBottom{
         width: 100%;
+        height: 60px;
         display: flex;
         justify-content: space-between;
         align-items: start;
@@ -28,11 +36,13 @@
         h2{
             font-size:20px;
             font-weight: 400;
+            align-self: center;
         }
 
         p{
-            margin:5px 0px;
+            margin-top: 5px;
             font-size: 13px;
+            align-self: center;
         }
     }
 

@@ -8,7 +8,7 @@
 :root{
   --BackgroundColor:#f3ededd9;
   --BackgroundColor2:#f3eded;
-  --footerBgColor:rgb(18, 17, 17);
+  --footerBgColor:rgba(20, 20, 20, 0.953);
 }
 
 body {

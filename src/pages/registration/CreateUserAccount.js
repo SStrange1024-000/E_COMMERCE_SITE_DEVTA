@@ -1,7 +1,8 @@
 import React from 'react';
 import './CreateUserAccount.scss'
-import img11 from '../../asset/Attire2.avif'
+import img11 from '../../asset/Couple.png'
 import { Link } from 'react-router-dom';
+import ProductImage from '../../components/Product/ProductImage';
 
 function CreateUserAccount() {
   return (
@@ -23,7 +24,7 @@ function CreateUserAccount() {
             <p> Login here : <Link to='/login'>login</Link></p>
         </div>
         <div className="image center">
-            <img src={img11} alt="" />
+            <ProductImage src={img11}/>
         </div>
     </div>
   )

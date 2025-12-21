@@ -11,5 +11,13 @@
 
     .content{
         display: flex;
+
+        .cont1{
+            flex: 1;
+        }
+        .cont2{
+            flex: 1;
+        }
+        
     }
 }
