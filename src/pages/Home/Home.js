@@ -15,10 +15,12 @@ function Home() {
                 <HBanner head='Collects' desc='Shop from the best.'/>
             </div>
             <div className="content" >
-              <div className="cont1" onClick={()=>navigate('/productlist/women')}>
+              <div className="cont1" 
+                onClick={()=>{navigate('/productlist/women'); window.scrollTo(0, 0);}
+                }>
                 <Category  title="Women"/>
               </div>
-              <div className="cont2" onClick={()=>navigate('/productlist/men')}>
+              <div className="cont2" onClick={()=>{navigate('/productlist/men'); window.scrollTo(0, 0);}}>
                 <Category  title="Men"/>
               </div>                
             </div>
