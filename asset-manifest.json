@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/E_COMMERCE_SITE_DEVTA/static/css/main.ba9490ba.css",
-    "main.js": "/E_COMMERCE_SITE_DEVTA/static/js/main.38ddd30a.js",
+    "main.js": "/E_COMMERCE_SITE_DEVTA/static/js/main.73a7d700.js",
     "static/media/Couple.png": "/E_COMMERCE_SITE_DEVTA/static/media/Couple.f45bf97b1adefecd213c.png",
     "static/media/Men.png": "/E_COMMERCE_SITE_DEVTA/static/media/Men.9fc0f616e5f6955f195a.png",
     "static/media/Classical Dress.png": "/E_COMMERCE_SITE_DEVTA/static/media/Classical Dress.6a359c761af24f190779.png",
     "static/media/Attire.avif": "/E_COMMERCE_SITE_DEVTA/static/media/Attire.bb79ef35a1c7df78142e.avif",
     "index.html": "/E_COMMERCE_SITE_DEVTA/index.html",
     "main.ba9490ba.css.map": "/E_COMMERCE_SITE_DEVTA/static/css/main.ba9490ba.css.map",
-    "main.38ddd30a.js.map": "/E_COMMERCE_SITE_DEVTA/static/js/main.38ddd30a.js.map"
+    "main.73a7d700.js.map": "/E_COMMERCE_SITE_DEVTA/static/js/main.73a7d700.js.map"
   },
   "entrypoints": [
     "static/css/main.ba9490ba.css",
-    "static/js/main.38ddd30a.js"
+    "static/js/main.73a7d700.js"
   ]
 }
