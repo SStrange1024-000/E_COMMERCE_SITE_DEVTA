@@ -1,34 +1,34 @@
-import React from 'react';
-import './Product.scss';
-import ProductImg from '../../asset/Attire.avif';
+import React from "react";
+import "./Product.scss";
+import ProductImg from "../../asset/Attire.avif";
 import { FaRegHeart } from "react-icons/fa";
-import ProductImage from './ProductImage';
+import ProductImage from "./ProductImage";
 import { FaShoppingBag } from "react-icons/fa";
-import { useNavigate } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
-function Product({src1}) {
-    const navigate=useNavigate()
+function Product({ src1 }) {
+  const navigate = useNavigate();
   return (
-    <div className="Product" onClick={()=>navigate('/products/:productId')}>
-        <div className="PTop">
-            <div className="wishList">
-                <FaRegHeart/>
-            </div>
+    <div className="Product" onClick={() => navigate("/products/:productId")}>
+      <div className="PTop">
+        <div className="wishList">
+          <FaRegHeart />
         </div>
-        <div className='productImgCont center'>
-            <ProductImage src={src1}/>
+      </div>
+      <div className="productImgCont center">
+        <ProductImage src={src1} />
+      </div>
+      <div className="PBottom">
+        <div className="productName">
+          <h2>Classical Dress</h2>
+          <p>$534</p>
         </div>
-        <div className="PBottom">
-            <div className="productName">
-                <h2>Classical Dress</h2>
-                <p>$534</p>
-            </div>
-            <div className="cart">
-                <FaShoppingBag/>
-            </div>
+        <div className="cart">
+          <FaShoppingBag />
         </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Product
+export default Product;

@@ -5,6 +5,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { FaPinterestSquare } from "react-icons/fa";
 import './Footer.scss'
+import { Link } from 'react-router-dom';
 
 function Footer() {
   const [fclicked,setFClicked]=useState(false);
@@ -37,6 +38,7 @@ function Footer() {
           <p className={fAclicked ? 'pdis':'ppp'} >Company Profile</p>
           <p className={fAclicked ? 'pdis':'ppp'} >Corporate Data</p>
           <p className={fAclicked ? 'pdis':'ppp'} >Technical teams</p>
+         <Link to='/AdminDash' className='RouteLink'><p className={fAclicked ? 'pdis':'ppp'} >Admin Site</p></Link>
         </div>
         <div className="services">
           <h2 onClick={handleFooterClicksL}>Legal</h2>
